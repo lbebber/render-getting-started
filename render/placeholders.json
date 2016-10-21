@@ -1,6 +1,6 @@
 {
   "index": {
     "path": "/",
-    "component": "vtex.getting-started/index.js"
+    "component": "index.js"
   }
 }
