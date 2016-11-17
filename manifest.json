@@ -6,7 +6,6 @@
   "vendor": "vtex",
   "dependencies": {
     "vtex.render": "0.0.x",
-    "npm:react": "15.3.0",
     "npm:classnames": "2.2.5"
   },
   "mustUpdateAt": "2017-09-05",
