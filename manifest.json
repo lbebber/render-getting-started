@@ -6,6 +6,7 @@
   "vendor": "vtex",
   "dependencies": {
     "vtex.render": "0.x",
+    "vtex.tachyons": "4.x",
     "npm:classnames": "2.2.5"
   },
   "mustUpdateAt": "2017-09-05",
