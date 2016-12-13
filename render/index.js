@@ -29,7 +29,7 @@ class GettingStartedIndex extends Component {
               <pre>
 {`  $ vtex login
   ? Email: seuemail@vtex.com
-  ? Account: developers
+  ? Account: instoreqa
   ! Please check your email - we've sent you a temporary code.
   ? Code:
   ? Workspaces: Create new workspace...
@@ -45,6 +45,7 @@ class GettingStartedIndex extends Component {
               <pre>
 {`  $ git clone git@github.com:vtex-apps/getting-started.git
   $ cd getting-started
+  $ vtex setup eslint
 `}
               </pre>
             </code>
