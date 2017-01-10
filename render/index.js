@@ -39,7 +39,7 @@ class GettingStartedIndex extends Component {
                 <pre className="pre bg-near-white pa3">
 {`  $ vtex login
   ? Email: seuemail@vtex.com
-  ? Account: instoreqa
+  ? Account: ${render.context.account}
   ! Please check your email - we've sent you a temporary code.
   ? Code:
   ? Workspaces: Create new workspace...
