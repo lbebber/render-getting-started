@@ -2,7 +2,10 @@ import React, {Component} from 'react'
 import classNames from 'classnames/bind'
 import Placeholder from 'vtex.render/Placeholder.js'
 import style from './style.css'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
+import es from 'react-intl/locale-data/es'
+import { FormattedMessage, FormattedHTMLMessage, addLocaleData } from 'react-intl'
+
+addLocaleData(es)
 
 const cx = classNames.bind(style)
 
@@ -147,14 +150,10 @@ class GettingStartedIndex extends Component {
               <code className="code">
                 <pre className="pre bg-near-white pa3">
 {`  // ANTES
-  <Placeholder id="second-step">
-    <h2 className={cx('hide')}>Woohoo! Você fez sua primeira mudança numa app!</h2>
-  </Placeholder>
+  <h2 className={cx('hide')}>
 
   // DEPOIS
-  <Placeholder id="second-step">
-    <h2 className={cx('success')}>Woohoo! Você fez sua primeira mudança numa app!</h2>
-  </Placeholder>
+  <h2 className={cx('success')}>
 `}
                 </pre>
               </code>
