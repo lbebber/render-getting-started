@@ -16,7 +16,7 @@ class GettingStartedIndex extends Component {
       <article>
         <header className="bg-light-blue sans-serif">
           <div className="mw9 center pa4 pt5-ns ph7-1 grow">
-            <h1 className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+            <h1 className="f2 f1-m f-headline-l lh-title mv0">
               <FormattedMessage
                 id="getting-started.greeting"
                 description="Boas vindas ao usuário no seu primeiro tutorial"
