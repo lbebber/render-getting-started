@@ -8,7 +8,7 @@
   "dependencies": {
     "vtex.render-runtime": "0.x",
     "vtex.render-builder": "0.x",
-    "npm:vtex-tachyons": "0.1.0",
+    "npm:vtex-tachyons": "^0.1.0",
     "npm:classnames": "2.2.5"
   },
   "mustUpdateAt": "2017-09-05",
