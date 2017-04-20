@@ -113,15 +113,15 @@ class GettingStartedIndex extends Component {
                 <FormattedMessage
                   id="getting-started.watch"
                   description="Explica sobre o comando 'watch'"
-                  defaultMessage="Pra fazer isso, vamos usar o comando {watch}"
-                  values={{watch: <i>watch</i>}}
+                  defaultMessage="Pra fazer isso, vamos usar o comando {link}"
+                  values={{link: <i>link</i>}}
                 />
               </p>
               <code className="code">
                 <pre className="pre bg-near-white pa3">
-{`  $ vtex watch
-  info:    Watching app vtex.getting-started@0.1.0
-  Your URL: http://developers.alpha.myvtex.com/?vtex_workspace=meu-workspace-unico
+{`  $ vtex link
+  info:    Linking app vtex.getting-started
+  Your URL: http://meu-workspace-unico.basedevmkp.myvtex.com/getting-started
 `}
                 </pre>
               </code>

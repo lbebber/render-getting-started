@@ -1,6 +1,6 @@
 {
-  "index": {
-    "path": "/",
+  "getting-started": {
+    "path": "/getting-started",
     "component": "index.js",
     "theme": "theme.css"
   }
