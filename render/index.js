@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import classNames from 'classnames/bind'
-import Placeholder from 'vtex.render/Placeholder.js'
+import Placeholder from 'vtex.render-runtime/components/Placeholder.js'
 import style from './style.css'
 import es from 'react-intl/locale-data/es'
 import { FormattedMessage, FormattedHTMLMessage, addLocaleData } from 'react-intl'
@@ -72,7 +72,7 @@ class GettingStartedIndex extends Component {
                 <pre className="pre bg-near-white pa3">
 {`  $ vtex login
   ? Email: seuemail@vtex.com
-  ? Account: ${render.context.account}
+  ? Account: ${global.__RUNTIME__.account}
   ! Please check your email - we've sent you a temporary code.
   ? Code:
   ? Workspaces: Create new workspace...

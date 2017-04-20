@@ -6,12 +6,16 @@
   "vendor": "vtex",
   "defaultLocale": "pt-BR",
   "dependencies": {
-    "vtex.render": "0.x",
-    "vtex.tachyons": "4.x",
+    "vtex.render-runtime": "0.x",
+    "vtex.render-builder": "0.x",
+    "npm:vtex-tachyons": "0.1.0",
     "npm:classnames": "2.2.5"
   },
   "mustUpdateAt": "2017-09-05",
   "categories": [],
+  "registries": [
+    "smartcheckout"
+  ],
   "settingsSchema": {},
   "scripts": {
     "postreleasy": "vtex publish"
