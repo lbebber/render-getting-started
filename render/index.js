@@ -2,10 +2,7 @@ import React, {Component} from 'react'
 import classNames from 'classnames/bind'
 import Placeholder from 'vtex.render-runtime/components/Placeholder.js'
 import style from './style.css'
-import es from 'react-intl/locale-data/es'
 import { FormattedMessage, FormattedHTMLMessage, addLocaleData } from 'react-intl'
-
-addLocaleData(es)
 
 const cx = classNames.bind(style)
 
