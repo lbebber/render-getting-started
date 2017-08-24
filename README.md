@@ -1,3 +1,3 @@
-# Getting Started - Render
+# Render Getting Started
 
-Uma app tutorial para o serviço Render.
+A getting started example app for the VTEX IO Render framework.

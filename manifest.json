@@ -1,8 +1,8 @@
 {
-  "name": "getting-started",
+  "name": "render-getting-started",
   "version": "0.2.9",
   "title": "Getting Started with Render",
-  "description": "A self-guided tutorial app",
+  "description": "A hello world app for Render",
   "vendor": "vtex",
   "defaultLocale": "pt-BR",
   "dependencies": {
