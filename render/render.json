@@ -1,0 +1,14 @@
+{
+  "placeholders": {
+    "getting-started": {
+      "path": "/getting-started",
+      "component": "./index.js",
+      "theme": "./theme.css"
+    },
+    "legacy-getting-started": {
+      "path": "/legacy-extensions/render-example",
+      "component": "./index.js",
+      "theme": "./theme.css"
+    }
+  }
+}

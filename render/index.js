@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import classNames from 'classnames/bind'
-import Placeholder from 'vtex.render-runtime/components/Placeholder.js'
+import {ExtensionPoint} from 'render'
 import style from './style.css'
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 
@@ -33,7 +33,7 @@ class GettingStartedIndex extends Component {
           </div>
         </header>
         <div className="pa4 ph7-l georgia mw9 center">
-          <Placeholder id="first-step">
+          <ExtensionPoint id="first-step">
             <div>
               <h2>
                 <FormattedMessage
@@ -162,8 +162,8 @@ class GettingStartedIndex extends Component {
                 />
               </p>
             </div>
-          </Placeholder>
-          <Placeholder id="second-step">
+          </ExtensionPoint>
+          <ExtensionPoint id="second-step">
             <h2 className={cx('hide')}>
               <FormattedMessage
                 id="getting-started.congrats"
@@ -171,7 +171,7 @@ class GettingStartedIndex extends Component {
                 defaultMessage="Woohoo! Você fez sua primeira mudança numa app!"
               />
             </h2>
-          </Placeholder>
+          </ExtensionPoint>
         </div>
       </article>
     )

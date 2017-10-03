@@ -5,13 +5,10 @@
   "description": "A hello world app for Render",
   "vendor": "vtex",
   "defaultLocale": "pt-BR",
-  "dependencies": {
-    "vtex.render-runtime": "0.x",
-    "vtex.render-builder": "0.x",
-    "npm:vtex-tachyons": "^0.1.0",
-    "npm:classnames": "2.2.5"
+  "builders": {
+    "render": "3.x"
   },
-  "mustUpdateAt": "2017-09-05",
+  "mustUpdateAt": "2018-09-05",
   "categories": [],
   "registries": [
     "smartcheckout"
