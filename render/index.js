@@ -1,12 +1,8 @@
 import React, {Component} from 'react'
 import classNames from 'classnames/bind'
 import {ExtensionPoint} from 'render'
-import style from './style.css'
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 
-const cx = classNames.bind(style)
-
-//eslint-disable-next-line
 class GettingStartedIndex extends Component {
   render () {
     return (

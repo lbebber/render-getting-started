@@ -13,17 +13,19 @@
     "getting-started/second-step": {
       "component": "./second.js"
     },
-    "legacy-getting-started": {
-      "component": "./index.js",
-      "theme": "./theme.css",
+    "render-example": {
       "route": {
         "path": "/legacy-extensions/render-example"
       }
     },
-    "legacy-getting-started/first-step": {
+    "render-example/example": {
+      "component": "./index.js",
+      "theme": "./theme.css"
+    },
+    "render-example/example/first-step": {
       "component": "./first.js"
     },
-    "legacy-getting-started/second-step": {
+    "render-example/example/second-step": {
       "component": "./second.js"
     }
   }
