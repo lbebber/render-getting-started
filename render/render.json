@@ -7,12 +7,24 @@
         "path": "/getting-started"
       }
     },
+    "getting-started/first-step": {
+      "component": "./first.js"
+    },
+    "getting-started/second-step": {
+      "component": "./second.js"
+    },
     "legacy-getting-started": {
       "component": "./index.js",
       "theme": "./theme.css",
       "route": {
         "path": "/legacy-extensions/render-example"
       }
+    },
+    "legacy-getting-started/first-step": {
+      "component": "./first.js"
+    },
+    "legacy-getting-started/second-step": {
+      "component": "./second.js"
     }
   }
 }
