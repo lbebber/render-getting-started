@@ -6,7 +6,7 @@
   "vendor": "vtex",
   "defaultLocale": "pt-BR",
   "builders": {
-    "render": "3.x"
+    "render": "4.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
@@ -15,6 +15,6 @@
   ],
   "settingsSchema": {},
   "scripts": {
-    "postreleasy": "vtex publish"
+    "postreleasy": "vtex publish --public"
   }
 }
