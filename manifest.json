@@ -6,12 +6,7 @@
   "description": "A hello world app for VTEX Render",
   "defaultLocale": "pt-BR",
   "builders": {
-    "react": "0.x",
-    "graphql": "0.x",
-    "node": "0.x"
-  },
-  "dependencies": {
-    "vtex.builder-hub": "0.x"
+    "react": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
