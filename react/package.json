@@ -1,8 +1,7 @@
 {
   "name": "vtex.render-getting-started",
-  "version": "0.2.9",
+  "version": "0.0.0",
   "dependencies": {
-    "classnames": "2.2.5",
     "vtex-tachyons": "^0.2.5"
   }
 }
