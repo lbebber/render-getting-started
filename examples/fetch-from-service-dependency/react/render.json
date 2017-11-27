@@ -2,14 +2,12 @@
   "extensions": {
     "sample-app.sample": {
       "component": "./sample",
-      "theme": "./theme.css",
       "route": {
         "path": "/sample"
       }
     },
     "sample-app.hello": {
       "component": "./index",
-      "theme": "./theme.css",
       "route": {
         "path": "/hello"
       }

@@ -16,6 +16,6 @@
   },
   "settingsSchema": {},
   "builders": {
-    "render": "4.x"
+    "react": "0.x"
   }
 }
