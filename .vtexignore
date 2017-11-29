@@ -1,6 +1,6 @@
 .git/
 node_modules/
-render/node_modules/
+react/node_modules/
 src/
 .eslintrc
 .gitignore
