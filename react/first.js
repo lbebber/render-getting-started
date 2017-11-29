@@ -4,19 +4,10 @@ import {FormattedMessage, FormattedHTMLMessage} from 'react-intl'
 const FirstStep = () =>
   <div>
     <h2>
-      <FormattedMessage
-        id="getting-started.first-steps-header"
-        defaultMessage="Primeiros passos"
-      />
+      <FormattedMessage id="getting-started.first-steps-header"/>
     </h2>
     <p>
-      <FormattedMessage
-        id="getting-started.toolbelt"
-        defaultMessage="Primeiro, instale o {toolbelt}, nossa ferramenta de linha de comando para desenvolver na plataforma VTEX:"
-        values={{
-          toolbelt: <strong>toolbelt</strong>,
-        }}
-      />
+      <FormattedHTMLMessage id="getting-started.toolbelt"/>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
@@ -25,10 +16,7 @@ const FirstStep = () =>
       </pre>
     </code>
     <p>
-      <FormattedHTMLMessage
-        id="getting-started.workspace-creation"
-        defaultMessage="Agora vamos fazer <i>login</i> na sua conta e criar um <strong>workspace</strong>, que é a sua área de trabalho pessoal."
-      />
+      <FormattedHTMLMessage id="getting-started.workspace-creation"/>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
@@ -43,16 +31,10 @@ const FirstStep = () =>
       </pre>
     </code>
     <p>
-      <FormattedHTMLMessage
-        id="getting-started.workspace-description"
-        defaultMessage="Um workspace serve para que você possa fazer mudanças isoladas na sua loja. Nada que você faz em um workspace é publicado até que você <strong>promova</strong> seu workspace. Por enquanto, não se preocupe com isso."
-      />
+      <FormattedHTMLMessage id="getting-started.workspace-description"/>
     </p>
     <p>
-      <FormattedMessage
-        id="getting-started.clone"
-        defaultMessage="Agora, clone o repositório dessa app:"
-      />
+      <FormattedMessage id="getting-started.clone"/>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
@@ -63,17 +45,10 @@ $ vtex setup eslint
       </pre>
     </code>
     <p>
-      <FormattedMessage
-        id="getting-started.synchronize"
-        defaultMessage="Finalmente, para podermos alterar uma app e ver suas mudanças precisamos sincronizar os arquivos locais com a plataforma. Assim, todas as nossas edições serão refletidas em tempo real!"
-      /> ✨
+      <FormattedMessage id="getting-started.synchronize"/> ✨
     </p>
     <p>
-      <FormattedMessage
-        id="getting-started.watch"
-        defaultMessage="Pra fazer isso, vamos usar o comando {link}"
-        values={{link: <i>link</i>}}
-      />
+      <FormattedHTMLMessage id="getting-started.watch"/>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
@@ -84,23 +59,15 @@ Your URL: http://meu-workspace-unico.basedevmkp.myvtex.com/getting-started
       </pre>
     </code>
     <p>
-      <FormattedHTMLMessage
-        id="getting-started.online"
-        defaultMessage="Legal! Após alguns segundos, seus arquivos já estão sendo sincronizados e você pode clicar na URL que apareceu no seu terminal para ver o <i>seu workspace online!</i>"
+      <FormattedHTMLMessage id="getting-started.online"/>
+    </p>
+    <p>
+      <FormattedMessage id="getting-started.edit-file"
+        values={{ fileName: <i>react/second.js</i> }}
       />
     </p>
     <p>
-      <FormattedMessage
-        id="getting-started.edit-file"
-        defaultMessage="Agora, abra seu editor de texto preferido para editar o arquivo {nomeDoArquivo}."
-        values={{ nomeDoArquivo: <i>render/second.js</i> }}
-      />
-    </p>
-    <p>
-      <FormattedMessage
-        id="getting-started.change-css"
-        defaultMessage="Procure o seguinte trecho de código e troque a classe 'dn' por 'green':"
-      />
+      <FormattedMessage id="getting-started.change-css"/>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
@@ -113,10 +80,7 @@ Your URL: http://meu-workspace-unico.basedevmkp.myvtex.com/getting-started
       </pre>
     </code>
     <p>
-      <FormattedHTMLMessage
-        id="getting-started.save"
-        defaultMessage="Agora <strong>salve</strong> o arquivo. Se tudo der certo, a mudança vai aparecer aqui embaixo!"
-      />
+      <FormattedHTMLMessage id="getting-started.save"/>
     </p>
   </div>
 

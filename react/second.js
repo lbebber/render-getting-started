@@ -3,10 +3,7 @@ import {FormattedMessage} from 'react-intl'
 
 const SecondStep = () => (
   <h2 className='dn'>
-    <FormattedMessage
-      id="getting-started.congrats"
-      defaultMessage="Woohoo! Você fez sua primeira mudança numa app!"
-    />
+    <FormattedMessage id="getting-started.congrats"/>
   </h2>
 )
 
