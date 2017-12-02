@@ -12,5 +12,6 @@
   "getting-started.edit-file": "Ahora, abra su editor de texto preferido para editar el archivo {fileName}",
   "getting-started.change-css": "Busque el seguinte trecho de código y cambie la classe “dn” para “green”:",
   "getting-started.save": "Ahora grabe su archivo. Si todo estuviera correcto, el cambio se exhibirá acá abajo!",
-  "getting-started.congrats": "Que bueno! Su primer modificación en una app!"
+  "getting-started.congrats": "Que bueno! Su primer modificación en una app!",
+  "getting-started.mobile": "(Ei 📱! Es mejor acceder a este tutorial directo de su entorno de desarrollo, pero bienvenido. 😊)"
 }
