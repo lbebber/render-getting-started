@@ -39,8 +39,8 @@ const FirstStep = () =>
     <code className="code">
       <pre className="pre bg-near-white pa3">
 {`  $ git clone git@github.com:vtex-apps/getting-started.git
-$ cd getting-started
-$ vtex setup eslint
+  $ cd getting-started
+  $ vtex setup eslint
 `}
       </pre>
     </code>
@@ -52,7 +52,9 @@ $ vtex setup eslint
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
-{`  $ vtex link
+{`  $ vtex install vtex.builder-hub@0.x
+info:    Installed app vtex.builder-hub@0.x successfully
+  $ vtex link
 info:    Linking app vtex.getting-started
 Your URL: http://meu-workspace-unico.basedevmkp.myvtex.com/getting-started
 `}

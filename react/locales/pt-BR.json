@@ -7,7 +7,7 @@
   "getting-started.workspace-description": "Um workspace serve para que você possa fazer mudanças isoladas na sua loja. Nada que você faz em um workspace é publicado até que você <strong>promova</strong> seu workspace. Por enquanto, não se preocupe com isso.",
   "getting-started.clone": "Agora, clone o repositório dessa app:",
   "getting-started.synchronize": "Finalmente, para podermos alterar uma app e ver suas mudanças precisamos sincronizar os arquivos locais com a plataforma. Assim, todas as nossas edições serão refletidas em tempo real!",
-  "getting-started.watch": "Pra fazer isso, vamos usar o comando <i>link</i>",
+  "getting-started.watch": "Pra fazer isso, vamos instalar o builder-hub e usar o comando <i>link</i>",
   "getting-started.online": "Legal! Após alguns segundos, seus arquivos já estão sendo sincronizados e você pode clicar na URL que apareceu no seu terminal para ver o <i>seu workspace online!</i>",
   "getting-started.edit-file": "Agora, abra seu editor de texto preferido para editar o arquivo {fileName}.",
   "getting-started.change-css": "Procure o seguinte trecho de código e troque a classe 'dn' por 'green':",
