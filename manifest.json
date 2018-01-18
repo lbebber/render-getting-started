@@ -6,7 +6,8 @@
   "description": "A hello world app for VTEX Render",
   "defaultLocale": "pt-BR",
   "builders": {
-    "react": "0.x"
+    "pages": "0.x",
+    "react": "1.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],

@@ -1,11 +1,16 @@
 {
+  "pages": {
+    "getting-started": {
+      "path": "/getting-started"
+    },
+    "legacy-getting-started": {
+      "path": "/legacy-extensions/render-example"
+    }
+  },
   "extensions": {
     "getting-started": {
       "component": "./index.js",
-      "theme": "./theme.css",
-      "route": {
-        "path": "/getting-started"
-      }
+      "theme": "./theme.css"
     },
     "getting-started/first-step": {
       "component": "./first.js"
@@ -13,19 +18,14 @@
     "getting-started/second-step": {
       "component": "./second.js"
     },
-    "render-example": {
-      "route": {
-        "path": "/legacy-extensions/render-example"
-      }
-    },
-    "render-example/example": {
+    "legacy-getting-started/example": {
       "component": "./index.js",
       "theme": "./theme.css"
     },
-    "render-example/example/first-step": {
+    "legacy-getting-started/example/first-step": {
       "component": "./first.js"
     },
-    "render-example/example/second-step": {
+    "legacy-getting-started/example/second-step": {
       "component": "./second.js"
     }
   }
