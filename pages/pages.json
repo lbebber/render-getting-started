@@ -9,24 +9,24 @@
   },
   "extensions": {
     "getting-started": {
-      "component": "./index.js",
-      "theme": "./theme.css"
+      "component": "index",
+      "theme": "theme"
     },
     "getting-started/first-step": {
-      "component": "./first.js"
+      "component": "first"
     },
     "getting-started/second-step": {
-      "component": "./second.js"
+      "component": "second"
     },
     "legacy-getting-started/example": {
-      "component": "./index.js",
-      "theme": "./theme.css"
+      "component": "index",
+      "theme": "theme"
     },
     "legacy-getting-started/example/first-step": {
-      "component": "./first.js"
+      "component": "first"
     },
     "legacy-getting-started/example/second-step": {
-      "component": "./second.js"
+      "component": "second"
     }
   }
 }
