@@ -26,6 +26,7 @@ class GettingStartedIndex extends Component {
           <ExtensionPoint id="second-step">
           </ExtensionPoint>
         </div>
+        {this.props.children}
       </article>
     )
   }

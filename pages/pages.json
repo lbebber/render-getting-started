@@ -1,0 +1,46 @@
+{
+  "pages": {
+    "getting-started": {
+      "path": "/getting-started",
+      "extensible": true
+    },
+    "getting-started/nested-a": {
+      "path": "/getting-started/a"
+    },
+    "getting-started/nested-b": {
+      "path": "/getting-started/b"
+    },
+    "legacy-getting-started": {
+      "path": "/legacy-extensions/render-example"
+    }
+  },
+  "extensions": {
+    "getting-started": {
+      "component": "index",
+      "theme": "theme"
+    },
+    "getting-started/nested-a": {
+      "component": "nestedA"
+    },
+    "getting-started/nested-b": {
+      "component": "nestedB"
+    },
+    "getting-started/first-step": {
+      "component": "first"
+    },
+    "getting-started/second-step": {
+      "component": "second",
+      "async": true
+    },
+    "legacy-getting-started/example": {
+      "component": "index",
+      "theme": "theme"
+    },
+    "legacy-getting-started/example/first-step": {
+      "component": "first"
+    },
+    "legacy-getting-started/example/second-step": {
+      "component": "second"
+    }
+  }
+}
