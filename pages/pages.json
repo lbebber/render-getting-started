@@ -2,6 +2,7 @@
   "pages": {
     "getting-started": {
       "path": "/getting-started",
+      "theme": "theme",
       "extensible": true
     },
     "getting-started/nested-a": {
@@ -11,13 +12,13 @@
       "path": "/getting-started/b"
     },
     "legacy-getting-started": {
-      "path": "/legacy-extensions/render-example"
+      "path": "/legacy-extensions/render-example",
+      "theme": "theme"
     }
   },
   "extensions": {
     "getting-started": {
-      "component": "index",
-      "theme": "theme"
+      "component": "index"
     },
     "getting-started/nested-a": {
       "component": "nestedA"
@@ -36,8 +37,7 @@
       }
     },
     "legacy-getting-started/example": {
-      "component": "index",
-      "theme": "theme"
+      "component": "index"
     },
     "legacy-getting-started/example/first-step": {
       "component": "first"
