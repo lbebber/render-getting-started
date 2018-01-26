@@ -1,9 +1,9 @@
 import React from 'react'
 import {FormattedMessage} from 'react-intl'
 
-const SecondStep = () => (
-  <h2 className='dn'>
-    <FormattedMessage id="getting-started.congrats"/>
+const SecondStep = (props) => (
+  <h2>
+    Bem vindo ao { props.appName }
   </h2>
 )
 

@@ -7,7 +7,7 @@ class GettingStartedIndex extends Component {
     return (
       <article>
         <header className="bg-light-blue sans-serif">
-          <div className="mw9 center pa5 pt5-ns ph7-1 grow">
+          <div className="mw9 center pa5 pt4-ns pb4-ns ph7-1 grow">
             <h1 className="f2 f1-m f-headline-l lh-title mv0">
               <FormattedMessage id="getting-started.greeting"/>
             </h1>
@@ -21,9 +21,9 @@ class GettingStartedIndex extends Component {
         </header>
         <div className="pa4 ph7-l georgia mw9 center">
           {__RUNTIME__.hints.mobile && <FormattedMessage id="getting-started.mobile"/>}
-          <ExtensionPoint id="first-step">
-          </ExtensionPoint>
           <ExtensionPoint id="second-step">
+          </ExtensionPoint>
+          <ExtensionPoint id="first-step">
           </ExtensionPoint>
         </div>
         {this.props.children}
