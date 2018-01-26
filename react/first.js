@@ -38,9 +38,9 @@ const FirstStep = () =>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
-{`  $ git clone git@github.com:vtex-apps/getting-started.git
+{`  $ git clone git@github.com:vtex-apps/render-getting-started.git
   $ cd getting-started
-  $ vtex setup eslint
+  $ vtex local eslint
 `}
       </pre>
     </code>
