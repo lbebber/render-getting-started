@@ -1,6 +1,6 @@
 {
   "getting-started.greeting": "Bem-vindo ao Primeiro Tutorial do VTEX Render!",
-  "getting-started.description": "Esse é um tutorial interativo. A idéia é você descobrir as funcionalidades do Render editando uma app.",
+  "getting-started.description": "Esse é um tutorial interativo. A ideia é você descobrir as funcionalidades do Render editando uma app.",
   "getting-started.first-steps-header": "Primeiros passos",
   "getting-started.toolbelt": "Primeiro, instale o <strong>toolbelt</strong>, nossa ferramenta de linha de comando para desenvolver na plataforma VTEX:",
   "getting-started.workspace-creation": "Agora vamos fazer <i>login</i> na sua conta e criar um <strong>workspace</strong>, que é a sua área de trabalho pessoal.",
