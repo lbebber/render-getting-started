@@ -39,7 +39,7 @@ const FirstStep = () =>
     <code className="code">
       <pre className="pre bg-near-white pa3">
 {`  $ git clone git@github.com:vtex-apps/render-getting-started.git
-  $ cd getting-started
+  $ cd render-getting-started
   $ vtex local eslint
 `}
       </pre>
@@ -52,7 +52,7 @@ const FirstStep = () =>
     </p>
     <code className="code">
       <pre className="pre bg-near-white pa3">
-{`  $ vtex install vtex.builder-hub@0.x
+{`  $ vtex install vtex.builder-hub
 info:    Installed app vtex.builder-hub@0.x successfully
   $ vtex link
 info:    Linking app vtex.getting-started
